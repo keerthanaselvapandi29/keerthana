@@ -13,7 +13,7 @@ function App() {
     setError('');
     setPrice(null);
     try {
-      const apiKey = 'demo'; // Replace with your actual API key
+      const apiKey = 'demo'; 
       const response = await axios.get(`https://www.alphavantage.co/query`, {
         params: {
           function: 'GLOBAL_QUOTE',
